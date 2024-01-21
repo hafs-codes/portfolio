@@ -36,7 +36,10 @@
 .logo {
   font-size: 32px;
 }
-
+.logo-img {
+  width: 50px; 
+  height: auto; 
+}
 .menu {
   display: flex;
   gap: 1em;
