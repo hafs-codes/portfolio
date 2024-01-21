@@ -20,17 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
       showImage(currentIndex);
     }
   
-    let intervalId = setInterval(nextImage, 5000);
+    let intervalId = setInterval(nextImage, 2000);
     leftArrow.addEventListener("click", function() {
       clearInterval(intervalId);
       prevImage();
-      intervalId = setInterval(nextImage, 5000); 
+      intervalId = setInterval(nextImage, 2000); 
     });
   
     rightArrow.addEventListener("click", function() {
       clearInterval(intervalId);
       nextImage();
-      intervalId = setInterval(nextImage, 5000);
+      intervalId = setInterval(nextImage, 2000);
     });
   
     const container = document.querySelector(".ProjectsFlex");
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   
     container.addEventListener("mouseleave", function() {
-      intervalId = setInterval(nextImage, 5000);
+      intervalId = setInterval(nextImage, 2000);
     });
   
     showImage(currentIndex);

@@ -143,7 +143,7 @@
 /* Languages */
 #Languages{
   text-align: center;
-  padding: 20px;
+  padding: 100px;
 }
 .LanguagesFlex{
   display: flex;
@@ -162,12 +162,13 @@
   position: relative;
   margin: 50px;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 #project-mini-header,
 #language-mini-header{
-  color: rgb(157, 219, 170);
-  font-weight: bold;
+  font-size: larger;
 }
 
 .project-header,
@@ -222,8 +223,15 @@
 #Contacts {
   background-color: rgb(157, 219, 170);
   padding: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
+#Contacts h4{
+  text-align: center;
+  color: #fff; 
+  padding-bottom: 20px;
+}
 .footer {
   display: flex;
   justify-content: space-around;
