@@ -249,11 +249,12 @@
 .footer-item {
   margin-bottom: 15px;
 }
+/*  */
 
 .footer a {
   color: #fff;
   text-decoration: none;
-  
+
   transition: color 0.3s ease;
 }
 
