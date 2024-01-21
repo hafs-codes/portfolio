@@ -87,13 +87,54 @@
   height: auto;
 }
 
+/* Languages */
 .LanguagesFlex{
   display: flex;
   justify-content:center;
   padding: 20px;
 }
 .Item img{
-  max-width: 20vh; /* Set the maximum width */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 20vh; 
+  height: auto; 
   border: none;
+}
+
+/* Projects */
+#Projects {
+  position: relative;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.ProjectsFlex {
+  display: flex;
+}
+
+.projectItem {
+  display: none;
+}
+
+.projectItem img {
+  max-width: 100%;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#left-arrow {
+  left: 10px;
+}
+
+#right-arrow {
+  right: 10px;
 }
