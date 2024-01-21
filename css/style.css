@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgb(138, 207, 207);
+    background-color: rgb(157, 219, 170);
     color: black;
   }
   
@@ -60,6 +60,28 @@
     position: relative; 
   }
 
+  .mainFlex{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
+  }
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.flexItem {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    /* box-sizing: border-box; */
+}
 
+#profile-img{
+  width: 250px; 
+  height: auto;
+}
