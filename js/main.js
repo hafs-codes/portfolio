@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
   
+
+    
     function nextImage() {
       currentIndex = (currentIndex + 1) % items.length;
       showImage(currentIndex);
