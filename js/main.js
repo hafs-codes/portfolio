@@ -41,3 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   showImage(currentIndex);
 });
+
+function scrollToProjects() {
+    document.getElementById('Projects').scrollIntoView({ behavior: 'smooth' });
+  }
