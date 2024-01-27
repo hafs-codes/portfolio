@@ -1,4 +1,4 @@
-This portfolio project showcases my basic skills as a software developer using basic HTML, CSS, and JavaScript only. The delpoyed website can be found at https://username.github.io/hafs-codes/
+This portfolio project showcases my basic skills as a software developer using basic HTML, CSS, and JavaScript only. The delpoyed website can be found at https://hafs-codes.github.io/portfolio/
 ## Technologies Used
 
 - HTML
